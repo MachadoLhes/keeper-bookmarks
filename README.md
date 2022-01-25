@@ -4,10 +4,11 @@ Django app created for the Python engineer test for Keeper Solutions.
 ## Requirements
 
 To run this project, you need the following:
-
+```
 - python 3.9
 - django 4.0.1
-    ```
+```
+
 ### Database configuration
 When running the project for the first time, please run the following commands:
 
