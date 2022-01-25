@@ -6,6 +6,7 @@ from bookmark import views
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'bookmarks', views.BookmarkViewSet)
+router.register(r'tags', views.TagViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
